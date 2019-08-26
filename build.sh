@@ -6,7 +6,8 @@ set -x
 
 PATH=$WORKSPACE/venv/bin:/usr/local/bin:$PATH
 if [ ! -d "venv" ]; then
-        virtualenv --python=/usr/bin/python3.6 venv
+        # virtualenv --python=/usr/bin/python3.6 venv
+        virtualenv venv
 fi
 
 . venv/bin/activate
