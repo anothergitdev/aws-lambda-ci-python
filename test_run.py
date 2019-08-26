@@ -12,7 +12,7 @@ def runner(output='python_tests_xml'):
 
 
 def find_tests():
-    return unittest.TestLoader().discover('lambdas')
+    return unittest.TestLoader().discover('lambda-functions')
 
 
 if __name__ == '__main__':

@@ -9,7 +9,7 @@ AWS Lambda CI/CD Template.
 
 ## Setting Up Project
 
-Clone this repository and add your lambda function packages in `lambda-functions` directory. there's sample `function-1` for reference.
+Clone this repository and add your lambda function packages in `lambda-functions` directory. there's sample `function-1` for reference with sample unit tests.
 Use same diretory structure for your lambda function handler and tests.
 
 
@@ -17,7 +17,9 @@ Use same diretory structure for your lambda function handler and tests.
 
     - Use this aws lambda template for python to develop manage and automatically build your code fro specific lambda fnctions package to deploy in your environment.
 
-    - Use script from sample lambda function-1 `package.json`
+    - Use `build.sh` script for testing deploying sample lambda functions.
+    
+    - `/src` directory on root will be created after successful run with deployement packages for each lambdas.
 
 
 ## Development setup for CI/CD
