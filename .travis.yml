@@ -17,7 +17,7 @@ install:
   - cd ..
 
 # script: ./build.sh
-
+script: echo "Travis Build Done."
 # safelist
 branches:
   only:

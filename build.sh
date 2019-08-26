@@ -24,13 +24,13 @@ python -m coverage xml -o coverage.xml
 python -m coverage html -d coverage
 
 
-pylint --disable=C0303,C0301,W0603,C0103,C0111 lambdas > pylint.log || true
+pylint --disable=C0303,C0301,W0603,C0103,C0111 lambda-functions > pylint.log || true
 
 
 python test_run.py
 
 mkdir src; curr_dir=$(pwd);
-cd lambdas;
+cd lambda-functions;
 
 for i in ./*; do echo "[Compressing Package] -> ${d}"; cd "${i}";  zip -r "${curr_dir}/src/${i%}.zip" . *; cd ..; done
 
