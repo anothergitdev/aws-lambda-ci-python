@@ -1,6 +1,6 @@
 # aws-lambda-ci-python
 
-[![Build Status](https://travis-ci.org/dheerusuthar/aws-lambda-ci-python.svg?branch=master)](https://travis-ci.org/dheerusuthar/aws-lambda-ci-python)
+[![Build Status](https://travis-ci.com/anothergitdev/aws-lambda-ci-python.svg?branch=master)](https://travis-ci.com/anothergitdev/aws-lambda-ci-python)
 ![GitHub top language](https://img.shields.io/github/languages/top/dheerusuthar/aws-lambda-ci-python)
 ![GitHub](https://img.shields.io/github/license/dheerusuthar/aws-lambda-ci-python)
 ![GitHub last commit](https://img.shields.io/github/last-commit/dheerusuthar/aws-lambda-ci-python)
